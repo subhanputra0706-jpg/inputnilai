@@ -1,0 +1,7 @@
+/* style.css - ringan & responsif */
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.card { box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 0.6rem; }
+table th, table td { vertical-align: middle; }
+@media (max-width: 576px) {
+  .navbar-brand { font-size: 0.95rem; }
+}
